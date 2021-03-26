@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%block body_block%}
+{%load static%}
+  <h1>Select the Theatre</h1>
+      <table>
+        <thead>
+          <th>Theatre Name</th>
+        </thead>
+        {%for theatre in theatres%}
+        <tr>
+          <td>{{theatre.theatre}}</td>
+          <td><a href="/tickets">Select</a></td>
+        </tr>
+        {%endfor%}
+      </table>
+{%endblock%}

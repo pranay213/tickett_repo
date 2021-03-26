@@ -1,0 +1,32 @@
+h1{
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  text-decoration-style: wavy;
+
+}
+body{
+  background: url('https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  font-size: 30px;
+  font-style: italic;
+  color: green;
+}
+h2{
+  color: red;
+  font-size: 70px;
+}
+img{
+  height: 200px;
+  weight: 200px;
+}
+h3{
+  color: green;
+}
+td{
+  color: blue:
+  font-size: 50px;
+}
